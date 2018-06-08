@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  mysql:
+    container_name: local-mysql
+    image: local-mysql
+    ports:
+      - 8306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: muscat
+      MYSQL_USER: muscat
+      MYSQL_PASSWORD: muscat
+      MYSQL_DATABASE: qna

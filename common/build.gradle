@@ -1,0 +1,17 @@
+group = "com.tg360tech.molecule_web"
+version = "0.0.1"
+
+bootJar { enabled = false }
+jar { enabled = true }
+
+
+dependencies {
+    compile('javax.validation:validation-api')
+    compile('com.fasterxml.jackson.core:jackson-annotations')
+
+    //compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    //compile('org.springframework.boot:spring-boot-starter-jdbc')
+//    compile("org.springframework.boot:spring-boot-starter-security")
+    //compile('org.hibernate:hibernate-java8')
+    runtime("mysql:mysql-connector-java")
+}

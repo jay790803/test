@@ -1,0 +1,4 @@
+rootProject.name = 'molecule_web'
+include 'common'
+include 'rest-api'
+include 'web'

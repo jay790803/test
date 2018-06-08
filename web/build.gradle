@@ -1,0 +1,16 @@
+group = "com.tg360tech.molecule_web"
+version = "0.0.1"
+
+
+jar {
+    baseName = 'platform'
+    version = '0.0.1-SNAPSHOT'
+}
+
+dependencies {
+    compile project(':rest-api')
+
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('pl.allegro.tech.boot:handlebars-spring-boot-starter:0.3.0')
+//    compile("org.springframework.boot:spring-boot-starter-security")
+}
